@@ -1,0 +1,224 @@
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
+body {font-family: 'Droid Arabic Naskh', serif; background-color: #303030;
+  background-image: url('black.jpg');
+  background-position: center;
+  background-attachment: fixed;
+}
+* {box-sizing: border-box; color: white;}
+
+img {
+  max-width: 100%;
+}
+
+video{
+  max-width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 3px;
+    padding: 3px;
+    overflow: hidden;
+    background-color: #171717;
+}
+
+
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+li a:hover, .dropdown1:hover .dropbtn {
+    background-color: #2e2e2e;
+}
+
+li.dropdown1 {
+    display: inline-block;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #b3b3b3;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+
+
+}
+
+h2{
+  background-color: #171717;
+  color: white;
+}
+
+h1{
+  color: white;
+}
+.footer{
+  padding: 1px;
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #171717;
+  color: white;
+  text-align: center;
+
+
+}
+
+
+.dropdown-content1 a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content1 a:hover {background-color: #f1f1f1}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+.container2 {
+  border: 1px solid #dddddd;
+	margin-top: 50px;
+    border-radius: 5px;
+    background-color: rgb(66,66,66, 0.9);
+    padding: 20px;
+
+}
+.result{
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    background-color: #171717;
+
+}
+span{
+  background-color: #ffb4b4;
+  color: black;
+}
+.container {
+  border: 1px solid #dddddd;
+    overflow-wrap: break-word;
+    border-radius: 5px;
+    background-color: rgb(66,66,66, 0.9);
+    padding: 20px;
+}
+
+input[type=text], select, textarea {
+    background-color: #171717;
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: white;
+
+    }
+input[type=number]{
+  background-color: #171717;
+
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: white;
+}
+input[type=submit] {
+    margin: 10px;
+    background-color: #171717;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.copy{
+  margin: 10px;
+  background-color: #2e2e2e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.copy:hover{
+  background-color: #3b3b3b ;
+}
+
+
+input[type=submit]:hover  {
+    background-color: #2e2e2e;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th{
+  color: #b3b3b3;
+  background-color: #171717;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #2e2e2e;
+    color:
+}
+/* unvisited link */
+a.link:link {
+   color: #b3b3b3;
+}
+
+/* visited link */
+a.link:visited {
+   color: #c2c2c2;
+}
+
+/* mouse over link */
+a.link:hover {
+   color: #c2c2c2;
+}
+
+/* selected link */
+a.link:active {
+   color: white;
+}
+.logo{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
